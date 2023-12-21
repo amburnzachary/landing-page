@@ -1,0 +1,18 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    list-style: none;
+}
+
+.logo {
+    margin-right: auto;
+}
