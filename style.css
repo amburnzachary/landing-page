@@ -16,3 +16,14 @@
 .logo {
     margin-right: auto;
 }
+
+.topbody {
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder {
+    height: 100px;
+    width: 200px;
+    background-color: gray;
+}
