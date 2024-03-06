@@ -1,14 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .page {
-    margin-left: 150px;
-    margin-right: 150px;
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    background-color: #1F2937;
 }
 
 .header ul {
     display: flex;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
 }
 
 .header li {
@@ -17,15 +34,32 @@
 
 .logo {
     margin-right: auto;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8
 }
 
 .topbody {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
 
+.topbody h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.topbody p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .placeholder {
-    height: 100px;
-    width: 200px;
+    flex-shrink: 0;
+    height: 250px;
+    width: 500px;
     background-color: gray;
 }
