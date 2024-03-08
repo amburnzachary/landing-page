@@ -112,3 +112,29 @@ body {
 .box p {
     margin-top: 5px;
 }
+
+.quoteBlock {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quoteBlock div {
+    width: 825px;
+    margin: 100px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.credit {
+    margin: 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+}
