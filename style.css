@@ -176,3 +176,16 @@ body {
     border-style: solid;
     border-radius: 5px;
 }
+
+.footer {
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.footer p {
+    margin: 0;
+}
