@@ -65,6 +65,7 @@ body {
 .topbody button {
     width: 100px;
     height: 25px;
+    padding: 2px 2px 4px 4px;
     margin-top: 10px;
     border: 0px;
     background-color: #3882F6;
@@ -137,4 +138,41 @@ body {
     text-align: right;
     font-size: 24px;
     font-weight: 800;
+}
+
+.cardBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 150px;
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.card h2, .card p {
+    margin: 0px;
+}
+
+.buttonBox button {
+    width: 100px;
+    height: 25px;
+    padding: 2px 2px 4px 4px;
+    background-color: #3882F6;
+    font-weight: 600;
+    color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
 }
